@@ -3,7 +3,7 @@ namespace Mediator
 {
     internal class Calendar
     {
-        private CalendarMediator _mediator { get; set; }
+        private CalendarMediator _mediator;
 
         public Calendar(CalendarMediator calendarMediator)
         {

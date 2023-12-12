@@ -1,9 +1,8 @@
-﻿using static Mediator.AlarmForMediator;
-namespace Mediator
+﻿namespace Mediator
 {
     internal class Alarm
     {
-        private AlarmMediator _mediator { get; set; }
+        private AlarmMediator _mediator;
 
         public Alarm(AlarmMediator mediator)
         {

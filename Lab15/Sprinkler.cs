@@ -3,18 +3,17 @@ namespace Mediator
 {
     internal class Sprinkler
     {
-        public void Check(CalendarRequest request)
+        public void Check(CalendarEventRequest request)
         {
             if (request == null)
             {
                 throw new ArgumentNullException(nameof(request), "Недопустимое значение");
             }
-
-            if (request is CalendarEventRequest)
-            {
-                Console.WriteLine($"Система орашения будет включена {request.Date}");
-            }
+           
+            Console.WriteLine($"Система орошения будет включена {request.Date}");
+            
         }
+
         public void Check(AlarmRequest request)
         {
             if (request == null)
@@ -22,7 +21,7 @@ namespace Mediator
                 throw new ArgumentNullException(nameof(request));
             }
 
-            Console.WriteLine($"Система орашения будет включена {request.Time}");
+            Console.WriteLine($"Система орошения будет включена {request.Time}");
         }
     }
 }

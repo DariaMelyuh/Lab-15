@@ -25,7 +25,6 @@ namespace Mediator
                         Console.WriteLine("Варим кофе");
                     }
                 }
-
             }
         }
 

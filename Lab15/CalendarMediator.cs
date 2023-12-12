@@ -3,8 +3,8 @@ namespace Mediator
 {
     internal class CalendarMediator : IMediator
     {
-        private CoffeePot _coffeePot { get; set; }
-        private Sprinkler _sprinkler { get; set; }
+        private CoffeePot _coffeePot;
+        private Sprinkler _sprinkler;
 
         public CalendarMediator(CoffeePot coffeePot, Sprinkler sprinkler)
         {
@@ -29,9 +29,13 @@ namespace Mediator
                 throw new ArgumentNullException(nameof(request));
             }
 
-            if (request is CalendarRequest calendarRequest)
+            if (request is NewDayRequest newDayRequest)
             {
-                _coffeePot.Check(calendarRequest);
+                _coffeePot.Check(newDayRequest);
+            }
+
+            if (request is CalendarEventRequest calendarRequest)
+            {
                 _sprinkler.Check(calendarRequest);
             }
         }
