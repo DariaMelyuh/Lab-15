@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator", "Lab15\Mediator.csproj", "{E1B43743-CC2E-4824-8AB7-8CA82FC3AC4C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Requests", "Requests\Requests.csproj", "{95E46E8D-4FDE-4F66-98D7-0174A526290E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{ACA1E9C1-31E1-4C9F-B82D-2CCBFE45AD35}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1B43743-CC2E-4824-8AB7-8CA82FC3AC4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1B43743-CC2E-4824-8AB7-8CA82FC3AC4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1B43743-CC2E-4824-8AB7-8CA82FC3AC4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1B43743-CC2E-4824-8AB7-8CA82FC3AC4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95E46E8D-4FDE-4F66-98D7-0174A526290E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95E46E8D-4FDE-4F66-98D7-0174A526290E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95E46E8D-4FDE-4F66-98D7-0174A526290E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95E46E8D-4FDE-4F66-98D7-0174A526290E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78B1187A-5AFC-40E0-9687-5E79395B86AA}
+	EndGlobalSection
+EndGlobal
